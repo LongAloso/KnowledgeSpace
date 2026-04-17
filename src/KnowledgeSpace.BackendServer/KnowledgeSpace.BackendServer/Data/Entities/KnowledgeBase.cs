@@ -9,7 +9,7 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
     public class KnowledgeBase : IDateTracking
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Required]
@@ -60,7 +60,5 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
         public int? NumberOfVotes { get; set; }
 
         public int? NumberOfReports { get; set; }
-
-        public int? ViewCount { get; set; }
     }
 }
