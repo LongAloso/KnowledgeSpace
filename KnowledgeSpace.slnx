@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Test/">
+    <Project Path="test/KnowledgeSpace.BackendServer.UnitTest/KnowledgeSpace.BackendServer.UnitTest.csproj" Id="0279ed5b-5e2d-4ca7-8c69-2df65e845ec4" />
+  </Folder>
   <Project Path="src/KnowledgeSpace.BackendServer/KnowledgeSpace.BackendServer/KnowledgeSpace.BackendServer.csproj" />
   <Project Path="src/KnowledgeSpace.ViewModels/KnowledgeSpace.ViewModels/KnowledgeSpace.ViewModels.csproj" />
   <Project Path="src/KnowledgeSpace.WebPortal/KnowledgeSpace.WebPortal/KnowledgeSpace.WebPortal.csproj" />
